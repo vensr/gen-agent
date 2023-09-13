@@ -5,7 +5,6 @@
 # pip install langchain
 
 import chainlit as cl
-import openai
 from dotenv import load_dotenv, find_dotenv
 from langchain import PromptTemplate, OpenAI, LLMChain
 
