@@ -98,7 +98,7 @@ async def start():
     # append results of search as context to chatgpt
     # return the results
     chain = RetrievalQAWithSourcesChain.from_chain_type(
-        OpenAI(temperature=0, streaming=True),
+        OpenAI(temperature=1, streaming=True),
         chain_type="stuff",
         retriever=search_doc.as_retriever(max_tokens_limit=4037),
     )
@@ -119,7 +119,7 @@ async def main(message):
     response = await chain.acall(message, callbacks=[cl.AsyncLangchainCallbackHandler()])
 
     # print(response)
-    answer = response["answer"]    
+    answer = response["answer"]
     await cl.Message(content=answer).send()
 
 # chainlit run 05_local_file_bot.py -w
