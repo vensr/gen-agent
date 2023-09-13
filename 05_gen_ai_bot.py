@@ -122,4 +122,4 @@ async def main(message):
     answer = response["answer"]
     await cl.Message(content=answer).send()
 
-# chainlit run 05_local_file_bot.py -w
+# chainlit run 05_gen_ai_bot.py -w
