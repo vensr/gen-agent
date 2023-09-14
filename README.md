@@ -1,5 +1,18 @@
 # LangChain and Generative AI
 
+## NOTE:
+Create a new file called .env and set the following environmental variables before running the examples.
+```bash
+
+OPENAI_API_KEY=
+
+# set this if you are running the pinecone example
+PINECONE_INDEX=
+PINECONE_ENVIRONMENT=
+PINECONE_API_KEY=
+
+```
+
 ## 1. Chainlit Demo
 The sample code to try out chainlit is in [01_chainlit_demo.py](./01_chainlit_demo.py). Run it using the command below.
 
