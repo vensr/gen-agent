@@ -62,3 +62,10 @@ The sample code to try out open ai embedding is in [09_embeddings.py](./09_embed
 ```bash
 python3 09_embeddings.py
 ```
+
+## 10. Pinecone Vector DB with OpenAIEmbedding
+The sample code to try out pinecone with open ai embedding is in [10_pinecone_db.py](./10_pinecone_db.py). Run it using the command below.
+
+```bash
+python3 10_pinecone_db.py
+```
