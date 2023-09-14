@@ -55,3 +55,10 @@ The sample code to try out custom agent is in [08_custom_agent.py](./08_custom_a
 ```bash
 chainlit run 08_custom_agent.py -w
 ```
+
+## 9. Embeddings using OpenAIEmbedding
+The sample code to try out open ai embedding is in [09_embeddings.py](./09_embeddings.py). Run it using the command below.
+
+```bash
+python3 09_embeddings.py
+```
